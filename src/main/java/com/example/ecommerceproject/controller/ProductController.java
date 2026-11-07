@@ -1,5 +1,5 @@
 package com.example.ecommerceproject.controller;
-import com.example.ecommerceproject.Interfaces.ProductService;
+import com.example.ecommerceproject.infaces.ProductService;
 import com.example.ecommerceproject.models.Product;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

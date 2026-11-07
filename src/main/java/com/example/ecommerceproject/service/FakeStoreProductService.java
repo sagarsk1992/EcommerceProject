@@ -1,13 +1,16 @@
 package com.example.ecommerceproject.service;
 
-import com.example.ecommerceproject.Interfaces.ProductService;
+import com.example.ecommerceproject.infaces.ProductService;
 import com.example.ecommerceproject.dtos.FakeStoreProductDto;
 import com.example.ecommerceproject.models.Category;
 import com.example.ecommerceproject.models.Product;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
+@Service   /* if u miss this annotatipn u will get error like No qualifying bean of type 'com.example.ecommerceproject.interfaces.ProductService'
+available*/
 public class FakeStoreProductService implements ProductService {
     private RestTemplate restTemplate;
 

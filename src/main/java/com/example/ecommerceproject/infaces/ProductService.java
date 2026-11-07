@@ -1,4 +1,4 @@
-package com.example.ecommerceproject.Interfaces;
+package com.example.ecommerceproject.infaces;
 
 import com.example.ecommerceproject.models.Product;
 
