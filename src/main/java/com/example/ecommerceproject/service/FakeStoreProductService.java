@@ -39,7 +39,7 @@ public class FakeStoreProductService implements ProductService {
                 restTemplate.getForObject("https://fakestoreapi.com/products/" + id,
                         FakeStoreProductDto.class);
         //1st param -> URL
-        //2nd param -> Response
+        //2nd param -> Response of type its says fakestoreDTo json returning right that to DTO object type
 
         if (fakeStoreProductDto == null) {
             return null;
